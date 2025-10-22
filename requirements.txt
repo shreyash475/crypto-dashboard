@@ -1,0 +1,42 @@
+streamlit
+requests
+pandas
+```
+
+**That's it!**
+
+**Why we need this:**
+- Your computer already has these installed
+- Streamlit Cloud starts fresh
+- This file says: "Install these before running my app"
+
+**Think of it as:** The grocery list for your app's recipe
+
+#### Visualisation Element
+Side-by-side:
+- Left: Simple text file showing the three lines
+- Right: Explanation showing each library's purpose (streamlit=framework, requests=API calls, pandas=data handling)
+
+#### Speaker Notes
+- 2 min
+- Super simple file, just list library names
+- One library per line
+- Only list what your app actually uses
+- Don't include Python built-ins (like `datetime`)
+- Have learners create this file in their project folder
+- Same folder as crypto_app.py
+- Save with exact name: requirements.txt (no capitals)
+
+---
+
+### 29 - Preparing Your App File
+#### Slide Content
+**Best practices before deploying:**
+
+**1. Name your file clearly:**
+- `app.py` or `crypto_app.py` ✓
+- `test123.py` or `untitled.py` ✗
+
+**2. Test locally one more time:**
+```
+streamlit run crypto_app.py
